@@ -1,30 +1,33 @@
 {
-  "name"         : "victoriaroad",
-  "version"      : "1.0.0",
-  "description"  : "",
-  "main"         : "victoriaroad.js",
-  "scripts"      : {
+  "name"            : "victoriaroad",
+  "version"         : "1.0.0",
+  "description"     : "",
+  "main"            : "victoriaroad.js",
+  "scripts"         : {
     "start"       : "node victoriaroad.js",
     "test"        : "echo \"Error: no test specified\" && exit 1",
     "postinstall" : "bower install"
   },
-  "repository"   : {
+  "repository"      : {
     "type" : "git",
     "url"  : "https://github.com/johnlayton/victoriaroad.git"
   },
-  "author"       : "john layton <johnstewartlayton@gmail.com>",
-  "license"      : "ISC",
-  "bugs"         : {
+  "author"          : "john layton <johnstewartlayton@gmail.com>",
+  "license"         : "ISC",
+  "bugs"            : {
     "url" : "https://github.com/johnlayton/victoriaroad/issues"
   },
-  "dependencies" : {
+  "dependencies"    : {
     "allimaavenue" : "git://github.com/johnlayton/allimaavenue",
     "dunnstreet"   : "git://github.com/johnlayton/dunnstreet",
     "ejs"          : "*",
     "express"      : "*"
   },
-  "engines"      : {
+  "engines"         : {
     "node" : "0.10.x"
   },
-  "homepage"     : "https://github.com/johnlayton/victoriaroad"
+  "homepage"        : "https://github.com/johnlayton/victoriaroad",
+  "devDependencies" : {
+    "bower" : "^1.3.12"
+  }
 }
