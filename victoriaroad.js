@@ -7,7 +7,7 @@ var app = express();
 app.set('view engine', 'ejs');
 
 app.get('/map', function(req, res) {
-  res.render('views/mapping.ejs');
+  res.render('mapping.ejs');
 });
 
 app.get('/', function (req, res) {
