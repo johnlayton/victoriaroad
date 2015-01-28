@@ -21,6 +21,7 @@
     "allimaavenue" : "git://github.com/johnlayton/allimaavenue",
     "dunnstreet"   : "git://github.com/johnlayton/dunnstreet",
     "ejs"          : "*",
+    "bower"        : "^1.3.12",
     "express"      : "*"
   },
   "engines"         : {
