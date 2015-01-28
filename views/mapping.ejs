@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="../public/components/webcomponentsjs/webcomponents.js"></script>
+    <link rel="import" href="../public/components/leaflet-map/leaflet-map.html">
+    <link rel="import" href="../public/components/humestreet/openlayers-map.html">
+    <link rel="import" href="../public/components/leaflet-storage-tilelayer/leaflet-storage-tilelayer.html">
+    <link rel="import" href="../public/components/devoncourt/leaflet-layers-control.html">
+    <link rel="import" href="../public/components/devoncourt/leaflet-opendap-layer.html">
+    <link rel="import" href="../public/components/devoncourt/leaflet-opendap-control.html">
+
+    <style>
+      html, body {
+        margin: 0;
+        height: 100%;
+      }
+
+      #map {
+        height: 100%;
+      }
+
+      #control::shadow > #chart > .inspect g path.line {
+        stroke: red;
+      }
+
+      #layer::shadow > #chart > .inspect g path.line {
+        stroke: blue;
+      }
+    </style>
+
+  </head>
+  <body unresolved>
+<!--
+      openlayers-map id="map" longitude="145.0" latitude="-37.0" zoom="7">
+      </openlayers-map>
+-->
+
+    <leaflet-map id="map" longitude="145" latitude="-37" zoom="7">
+
+      <leaflet-storage-tilelayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png">
+      </leaflet-storage-tilelayer>
+
+<!--
+      <leaflet-opendap-control id="control" url="/path/to/data" variable="var">
+      </leaflet-opendap-control>
+-->
+<!--
+      <leaflet-opendap-layer id="layer" url="/path/to/data" variable="var">
+      </leaflet-opendap-layer>
+-->
+<!--
+      <leaflet-layers-control />
+-->
+
+    </leaflet-map>
+  </body>
+</html>

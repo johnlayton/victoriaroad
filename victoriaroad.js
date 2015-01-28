@@ -1,5 +1,14 @@
+var allimaavenue = require( 'allimaavenue' );
+var dunnstreet = require( 'dunnstreet' );
+
 var express = require('express');
 var app = express();
+
+app.set('view engine', 'ejs');
+
+app.get('/map', function(req, res) {
+  res.render('views/mapping.ejs');
+});
 
 app.get('/', function (req, res) {
   res.send('Hello World!');

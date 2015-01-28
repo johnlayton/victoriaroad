@@ -1,0 +1,33 @@
+{
+  "name": "victoriaroad",
+  "version": "0.0.0",
+  "authors": [
+    "john layton <johnstewartlayton@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "core-ajax": "polymer/core-ajax",
+    "polymer": "polymer/polymer",
+    "paper-input": "polymer/paper-input",
+    "paper-progress": "polymer/paper-progress",
+    "leaflet-map": "~0.3.1",
+    "leaflet-storage-tilelayer": "https://github.com/BlackhawkWebComponents/leaflet-storage-tilelayer.git",
+    "openlayers": "https://github.com/openlayers/ol3/releases/download/v3.1.1/v3.1.1.zip",
+    "devoncourt": "johnlayton/devoncourt",
+    "humestreet": "johnlayton/humestreet"
+  },
+  "resolutions": {
+    "core-component-page": "^0.5.0",
+    "polymer": "~0.5.2",
+    "leaflet-map": "~0.3.1",
+    "leaflet": "~0.7.3"
+  }
+}
